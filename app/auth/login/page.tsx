@@ -94,7 +94,7 @@ const page = () => {
 
         <div className="flex text-center gap-1 absolute bottom-4">
           Don’t have an account?{" "}
-          <Link href="/auth/signup" className="text-blue-500">
+          <Link href="/auth/login" className="text-blue-500">
             Sign up
           </Link>
         </div>
