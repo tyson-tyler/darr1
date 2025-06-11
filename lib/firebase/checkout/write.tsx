@@ -72,8 +72,8 @@ export const createCheckoutAndGetURL = async ({
       uid,
       address: JSON.stringify(address),
     },
-    success_url: `${process.env.NEXT_LOCALHOST}/checkout-success?checkout_id=${checkoutId}`,
-    cancel_url: `${process.env.NEXT_LOCALHOST}/checkout-failed?checkout_id=${checkoutId}`,
+    success_url: `${process.env.NEXT_PUBLIC_DOMAIN}/checkout-success?checkout_id=${checkoutId}`,
+    cancel_url: `${process.env.NEXT_PUBLIC_DOMAIN}/checkout-failed?checkout_id=${checkoutId}`,
   });
 
   // Wait for backend (e.g., Firebase Function or Stripe extension) to attach URL

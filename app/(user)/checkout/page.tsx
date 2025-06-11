@@ -64,7 +64,6 @@ const page = () => {
 
   return (
     <div>
-      <h1>checkout</h1>
       <Checkout productList={productList} />
     </div>
   );
